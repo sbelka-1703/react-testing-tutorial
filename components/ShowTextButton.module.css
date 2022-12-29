@@ -1,0 +1,21 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  width: 80px;
+  height: 30px;
+  background-color: lightseagreen;
+  border: none;
+  border-radius: 10vh;
+}
+
+.button:hover {
+  background: rgb(44, 235, 225);
+}
+
+.text {
+  color: lightskyblue;
+}
