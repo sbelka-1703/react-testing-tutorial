@@ -14,7 +14,7 @@ export const ShowContentButton = ({ children }: ShowContentButtonProps) => {
         className={styles.button}
         onClick={() => setIsShown((isShown) => !isShown)}
       >
-        {isShown ? "Hide" : "Show"} Text
+        {isShown ? "Hide" : "Show"} Content
       </button>
       <div className={styles.text}>{isShown && children}</div>
     </div>

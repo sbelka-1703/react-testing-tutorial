@@ -1,10 +1,10 @@
-import { ShowContentButton } from "@/components/ShowContentButton";
+import { ShowContentButton } from "@/components/ShowContentButton/ShowContentButton";
 
 export default function Home() {
   return (
     <div>
       <ShowContentButton>
-        <p>Some Text is Shown</p>
+        <p>Some Text</p>
       </ShowContentButton>
     </div>
   );
